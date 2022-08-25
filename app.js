@@ -20,12 +20,12 @@ db
         console.log("Conectou ao Banco com Sucesso.")
     })
     .catch(err =>{
-        console.log("Ocorreu um erro ao conectar.", err)
+        console.log("Ocorreu um erro ao conectar o Banco de Dados.", err)
     });
 
 // routes
 app.get('/', (req, res)=>{
-    res.send("Está funcionando mesmo !")
+    res.send("Esta é a Home do Site!")
 });
 
 // jobs routes

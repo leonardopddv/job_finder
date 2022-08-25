@@ -1,0 +1,9 @@
+#navbarNav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0px 15px;
+}
+
+.navbar-brand {
+    margin: 0px 15px;
+}
